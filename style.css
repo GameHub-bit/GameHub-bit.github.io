@@ -1,0 +1,74 @@
+/* Mengatur latar belakang untuk seluruh halaman */
+body {
+    background-image: url(); /* Path ke gambar */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Mengatur header */
+header {
+    background-color: darkgreen; /* Warna semi-transparan */
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Mengatur main content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 1.5em;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tombol */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.a-button{
+color: #ffffff;
+text-decoration: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Mengatur footer */
+footer {
+    background-color: darkgreen; /* Warna semi-transparan */
+    text-align: center;
+    padding: 10px;
+}
