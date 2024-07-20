@@ -1,1 +1,1 @@
-# GameHub-bit.github.io
+GameHub.html
